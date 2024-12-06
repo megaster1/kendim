@@ -43,6 +43,6 @@ accept = 443
 connect = 127.0.0.1:22
 ENDOFFILE
 
-/etc/init.d/stunnel4 restart
+systemctl enable --now stunnel4
 
 nano /etc/default/stunnel4
