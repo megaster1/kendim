@@ -1,8 +1,8 @@
 #!/bin/bash
 yum update -y
-dfn install sudo curl bash
-dfn install cmake -y
-dfn install screen wget gcc build-essential g++ make -y
+dnf install sudo curl bash
+dnf install cmake -y
+dnf install screen wget gcc build-essential g++ make -y
 wget https://github.com/megaster1/kendim/raw/main/badvpn-1.999.130.tar.gz
 tar xf badvpn-1.999.130.tar.gz
 cd badvpn-1.999.130/
