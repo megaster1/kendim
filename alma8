@@ -28,7 +28,7 @@ systemctl enable videocall
 systemctl start videocall
 
 cd
-apt install stunnel
+dnf install stunnel
 
 cat >  /etc/stunnel/stunnel.conf << ENDOFFILE
 cert = /etc/stunnel/stunnel.pem
